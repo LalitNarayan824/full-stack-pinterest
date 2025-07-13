@@ -1,0 +1,77 @@
+.userButtons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.userButtons a{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.userButtons img{
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  object-fit: cover;
+
+}
+
+.userButtons a:hover{
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.userButtons .arrow{
+  width: 16px;
+  height: 16px;
+}
+
+.loginLink{
+  font-size: 16px;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.loginLink:hover{
+  background-color: #f1f1f1;
+}
+
+.userOptions{
+  position: absolute;
+  right: 0;
+  top: 100%;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.201);
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  font-size: 14px;
+
+}
+
+.userOption{
+  padding: 5px 3px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.userOption:hover{
+  background-color: #f2f2f2;
+  color: gray;
+}
+
+
+@media (width <= 475px){
+  .userButtons{
+    display: none;
+  }
+}

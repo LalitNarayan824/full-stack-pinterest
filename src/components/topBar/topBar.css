@@ -1,0 +1,35 @@
+.topBar{
+  /* margin: 16px 0; */
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  background-color: white;
+  padding: 16px 0;
+}
+
+.search{
+  flex: 1;
+  background-color: #f1f1f1;
+  border-radius:16px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: text;
+}
+
+.search input{
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.search img{
+  height: 20px;
+  width: 20px;
+}

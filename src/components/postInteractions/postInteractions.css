@@ -1,0 +1,68 @@
+.postInteractions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 12px;
+}
+
+.reaction {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.InteractionIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s, filter 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+  filter: brightness(1.2);
+}
+
+.postInteractions button {
+  background: rgb(255, 34, 34);
+  padding: 16px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.postInteractions button:hover {
+  background: rgb(255, 0, 0);
+}
+
+
+.savediv{
+  position: relative;
+}
+.selectBoardForm {
+  /* Add your styles here */
+  margin-left: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.selectBoardForm button{
+  padding: 8px;
+  /* font-size: 10px; */
+
+}

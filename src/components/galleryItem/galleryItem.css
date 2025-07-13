@@ -1,0 +1,111 @@
+.galleryItem {
+  display: flex;
+  position: relative;
+}
+
+.galleryimage{
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.301);
+  border-radius: 16px;
+}
+
+.galleryItem:hover .overlay {
+  display: block;
+}
+.saveButton {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 45px;
+  width: 70px;
+  border-radius: 15px;
+  background-color: rgb(255, 36, 36);
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  /* box-shadow: 2px 2px black inset; */
+}
+
+.galleryItem:hover .saveButton {
+  display: block;
+  /* background-color: red; */
+}
+
+.saveButton:hover {
+  background-color: red;
+}
+.overLayIcons {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  /* display: flex ; */
+  gap: 16px;
+}
+
+.overLayButtons {
+  height: 37px;
+  width: 37px;
+  padding: 8px;
+  border-radius: 13px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.overLayButtons:hover {
+  background-color: #f4f4f4;
+}
+
+.galleryItem:hover .overLayIcons {
+  display: flex;
+  gap: 4px;
+}
+
+.userOptions {
+  position: absolute;
+  right: -20%;
+  top: 130%;
+  width: max-content;
+  padding: 10px 10px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 4px 4px 8px #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  font-size: 14px;
+  text-align: start;
+}
+
+.userOption {
+  padding: 5px 3px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.userOption img {
+  height: 20px;
+  width: 20px;
+}
+
+.userOption:hover {
+  background-color: #f2f2f2;
+  color: gray;
+}

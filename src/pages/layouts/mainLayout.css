@@ -1,0 +1,12 @@
+.app{
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  /* background-color: rgb(181, 0, 0); */
+}
+
+.content{
+  flex: 1;
+  /* background-color: #444; */
+  margin-right: 16px;
+}
